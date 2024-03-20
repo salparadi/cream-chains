@@ -1,0 +1,27 @@
+[project]
+name = "cream_chains"
+version = "1.0"
+authors = [
+	{ name="salparadi", email="cream@salparadi.com" },
+]
+description = "Chain configuration and ABI data for the CREAM project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	"eth_typing",
+	"eth_utils",
+	"ujson"
+]
+license = {text = "MIT"}
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"License :: OSI Approved :: MIT License",
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: Developers",
+	"Natural Language :: English",
+	"Operating System :: POSIX",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

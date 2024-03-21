@@ -1,2 +1,2 @@
-from .chains.chains import chains
-from .abis import abis
+from .chains import chains
+from .abis import *

@@ -101,8 +101,16 @@ chain_factories = {
                 "factory_address": to_checksum_address(
                     "0x02a84c1b3BBD7401a5f7fa98a384EBC70bB5749E"
                 ),
-                "pool_init_hash": "57224589c67f3f30a6b0d7a1b54cf3153ab84563bc609ef41dfb34f8b2974d2d",
+                "pool_init_hash": "0x57224589c67f3f30a6b0d7a1b54cf3153ab84563bc609ef41dfb34f8b2974d2d",
                 "factory_deployment_block": 2910387,
+                "fee": 3000,
+            },
+            "rocketswap": {
+                "factory_address": to_checksum_address(
+                    "0x1B8128c3A1B7D20053D10763ff02466ca7FF99FC"
+                ),
+                "pool_init_hash": "0x32d4b730a0e562de3cbe5b62b68f3312e55fab8d511c97e70928147f673be977",
+                "factory_deployment_block": 1732443,
                 "fee": 3000,
             },
             "sushiswap": {

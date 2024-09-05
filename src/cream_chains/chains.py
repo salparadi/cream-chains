@@ -588,6 +588,12 @@ chain_aggregators = {
     "avalanche": None,
     "base": None,
     "ethereum": {
+        to_checksum_address("0x111111125421cA6dc452d289314280a0f8842A65"): {
+            "name": "1Inch v6: Router",
+            "aggregator": "oneinch",
+            "abi": ONE_INCH_ROUTER_V6_ABI,
+            "w3": None,
+        },
         to_checksum_address("0x1111111254EEB25477B68fb85Ed929f73A960582"): {
             "name": "1Inch v5: Router",
             "aggregator": "oneinch",

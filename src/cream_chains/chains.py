@@ -135,7 +135,7 @@ chain_factories = {
                 "factory_address": to_checksum_address(
                     "0x0BFbCF9fa4f9C56B0F40a671Ad40E0805A091865"
                 ),
-                "pool_init_hash": "6ce8eb472fa82df5469c6ab6d485f17c3ad13c8cd7af59b3d4a8026c5ce0f7e2",
+                "pool_init_hash": "0x6ce8eb472fa82df5469c6ab6d485f17c3ad13c8cd7af59b3d4a8026c5ce0f7e2",
                 "tick_lens": to_checksum_address(
                     "0x9a489505a00cE272eAa5e07Dba6491314CaE3796"
                 ),
